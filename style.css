@@ -264,6 +264,8 @@
     border-top: 17px solid #949494;
 }
 
+/* dots */
+
 .chatbot_loading {
     height: 10px;
     width: 10px;
@@ -271,6 +273,8 @@
     background-color: #949494;
     transform: scale(1);
 }
+
+/* dot animation  with synchronized  effect*/
 
 .chatbot_loading:nth-child(1) {
     animation: pulse 1.5s ease-in-out infinite;
@@ -286,6 +290,8 @@
     animation-delay: 0.4s;
 }
 
+/* pulsating effect */
+
 @keyframes pulse {
     0% {
         transform: scale(1);
@@ -297,6 +303,8 @@
         transform: scale(1);
     }
 }
+
+/* float animation */
 
 @keyframes chatTranslate {
     0% {
